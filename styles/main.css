@@ -1,12 +1,11 @@
 header{
     background-image: url(../assets/mohamed-ajufaan-GFcW.png);
-    background-color: #000000;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
     background-size: cover;
+    background-color: #000000;
 }
 .header{
-    max-width: 1079px;
+    max-width: 79%;
     margin: 0 auto;
     padding-top: 32px;
 }
@@ -78,4 +77,126 @@ padding-bottom: 86px;
     display: flex;
     column-gap: 20px;
 }
+
+
+
+.container{
+    max-width: 79%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+.heading{
+    margin-left: 10%;
+    width: 310px;
+    margin-top: 116px;
+    margin-bottom: 55px;
+}
+.heading h2{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #5863f8;
+}
+.heading h3{
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    color: #000000;
+}
+.box{
+    display: flex;
+    width: 49%;
+}
+.box img{
+    width: 31%;
+}
+.text{
+    width: 58%;
+    background-color: #F8F8F8;
+    
+}
+.text h2 {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #5863f8;
+    padding: 39px 0px 4px 16px;
+}
+.text h3{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    padding: 0px 0px 11px 16px;
+}
+.text p{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #b1b1b1;
+    padding: 0px 0px 36px 16px;
+}
+.arrow{
+    width: 11%;
+    text-align: center;
+    background-color: #5863F8;
+}
+.arrow a{
+    display: inline-block;
+    padding-top: 125%;
+    font-size: 30px;
+}
+.forms{
+    background: #f8f8f8;
+    height: 190px;
+    margin-top: 71px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 79%;
+    margin: 0 auto;
+}
+.checkIn{
+    display: inline-block;
+    margin-top: 55px;
+}
+.checkIn label{
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    color: #5863f8;
+}
+.checkIn input{
+    margin-top: 6px;
+    width: 260px;
+    height: 60px;
+    border-color: #ebebeb;
+    border-width: 2px;
+    border-style: solid;
+    background: #ffffff;
+    
+}
+.button{
+    margin-top: 76px;
+    width: 260px;
+    height: 60px;
+    background: #5863f8;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
