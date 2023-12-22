@@ -1,11 +1,13 @@
 *{
-    font-family: "Poppins";
+    font-family: 'Poppins', sans-serif;
 }
-header{
-    background-image: url(../assets/mohamed-ajufaan-GFcW.png);
-    background-position: center; 
+header {
+    background-image: url("../assets/mohamed-ajufaan-GFcW.png");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: (0, 0, 0, 0.7);
+    
 }
 .header{
     max-width: 79%;
@@ -254,10 +256,16 @@ footer{
     font-weight: 500;
     color: #5863f8;
 }
-.UsefullLinks, .privacy, .contacts{
+.UsefullLinks, .privacy, .contact{
     display: flex;
     flex-direction: column;
     row-gap: 13px;
+}
+.contact{
+    row-gap: 20px;
+}
+.contact a{
+    color: #ffffff;
 }
 .LandingPage{
     font-size: 14px;
