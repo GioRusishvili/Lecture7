@@ -179,9 +179,17 @@ footer{
 .footer{
     max-width: 79%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    column-gap: 90px;
+    padding-top: 93px;
 }
 .hotel{
     max-width: 19%;
+    margin-top: 93px;
 }
 .hotel p{
     width: 260px;
@@ -189,7 +197,7 @@ footer{
     font-size: 14px;
     font-weight: 500;
     color: #b1b1b1;
-    margin-top: 22px;
+    padding-top: 20px;
 }
 .hotel h2{
     width: 139px;
@@ -197,7 +205,6 @@ footer{
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
-    margin-top: 93px;
 }
 .facebook{
     width: 35px;
@@ -231,4 +238,44 @@ footer{
 }
 .plus{
     padding-bottom: 5px;
+}
+.logos{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+.links h2{
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 13px;
+}
+.links a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5863f8;
+}
+.UsefullLinks, .privacy, .contacts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.LandingPage{
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 79%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 41px;
+}
+.LandingPage p {
+    color: #b1b1b1;
+}
+.LandingPage span, .LandingPage a{
+    color: #5863F8;
+}
+.LandingPage a{
+    font-size: 14px;
+    font-weight: 500;
 }
